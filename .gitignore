@@ -1,0 +1,127 @@
+# .NET Core
+bin/
+obj/
+*.csproj.user
+*.suo
+*.cache
+*.user
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snk
+*.pdb
+*.dll
+*.exe
+*.msi
+*.appx
+*.appxbundle
+*.appxupload
+*.tmp
+*.bak
+*.log
+*.tlog
+*.tlog.*
+*.trx
+*.xml
+*.VisualState.xml
+*.vs/
+*.vs/*
+*.vscode/
+*.vscode/*
+*.nuget/
+*.nuget/*
+*.msbuild
+
+# Banco de dados SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos de configuração local
+appsettings.Development.json
+appsettings.*.json
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Pacotes NuGet
+packages/
+*.nupkg
+
+# Arquivos de build e publish
+[Pp]ublish/
+[Pp]ublish/*
+[Bb]in/[Rr]elease/
+[Bb]in/[Dd]ebug/
+[Oo]bj/[Rr]elease/
+[Oo]bj/[Dd]ebug/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*~
+*.log
+*.log.*
+
+# Arquivos de IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de cobertura de testes
+[Tt]est[Rr]esult*/
+[Cc]overage/
+*.coverage
+*.coveragexml
+
+# Arquivos de profiling
+*.gpState
+*.gpState.*
+
+# Arquivos de dependências locais
+node_modules/
+bower_components/
+
+# Arquivos de runtime
+*.pidb
+*.userprefs
+
+# Arquivos de documentação gerada
+[Dd]ocs/_site/
+[Dd]ocs/_build/
+
+# Arquivos de logs do Mosquitto ou Node-RED (se aplicável)
+mosquitto.log
+*.log
+
+# Arquivos de ambiente virtual (se Python for usado em algum momento)
+venv/
+env/
+.venv/
+.env/
+*.py[cod]
+__pycache__/
+
+*.p12
+*.pfx
+*.key
+*.cert
+*.pem
+
+# Arquivos de configuração do Docker (se aplicável)
+docker-compose.override.yml
+
+# Outros
+*.DS_Store
+Thumbs.db
